@@ -1,0 +1,43 @@
+/* Estilos adaptados de main */
+.juego-detail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilos adaptados de h1 */
+.juego-detail-heading {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilos adaptados de p */
+.juego-detail-paragraph {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos adaptados de img (aplicados a todas las imágenes de juego) */
+.juego-detail-image {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    max-width: 100%;
+    /* Para responsividad */
+    height: auto;
+}
+
+/* Estilo para el enlace (a) */
+.juego-detail-link {
+    font-size: 24px;
+    color: #070bff;
+    /* Color azul del tema */
+    text-decoration: underline;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border: 1px solid #070bff;
+    border-radius: 5px;
+}

@@ -1,0 +1,45 @@
+.juegos-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilos adaptados de h1 */
+.juegos-heading {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Estilos adaptados de p */
+.juegos-paragraph {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Estilos adaptados de img */
+.juego-imagen {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Estilos para la lista si fueran necesarios, replicando ul si aplica */
+.juegos-list {
+    list-style: none;
+    /* Si se desea remover los puntos de la lista */
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.juegos-item {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.juegos-link {
+    color: #070bff;
+    /* Color de enlace que podría ir con el tema azul */
+    text-decoration: none;
+}

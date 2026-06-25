@@ -1,0 +1,44 @@
+/* Adaptación del CSS global para el componente React */
+
+.mundo-azul-page {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Main Content */
+.mundo-azul-main {
+    /* main */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.mundo-azul-main .main-heading {
+    /* h1 */
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.mundo-azul-main .main-paragraph-container {
+    /* p1 */
+    border: 1px solid #000;
+    line-height: 1.5;
+    /* Corregido de 1,5 a 1.5 */
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #288bc5;
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+}
+
+.mundo-azul-main .main-image {
+    /* img */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: 800px;
+    /* Se añadieron width y height del HTML original */
+    height: 400px;
+}

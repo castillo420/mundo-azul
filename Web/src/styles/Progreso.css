@@ -1,0 +1,104 @@
+/* Estilos generales para la página de progreso */
+.progreso-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'arial', sans-serif;
+}
+
+.error-message {
+    background-color: #ffe0e0;
+    color: #c00;
+    padding: 20px;
+    border: 2px solid #c00;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.progreso-heading {
+    font-size: 2.5rem;
+    color: #070bff;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.progreso-description {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.progreso-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.progreso-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.progreso-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.progreso-card h2 {
+    color: #070bff;
+    /* Título del juego en azul */
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border-left: 5px solid #070bff;
+    /* Indicador visual naranja/cobre */
+    padding-left: 10px;
+}
+
+.progreso-card p {
+    color: #555;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.progreso-card p strong {
+    font-weight: 700;
+    color: #333;
+}
+
+/* Estilo para el mensaje motivacional (último párrafo en la tarjeta) */
+.progreso-card p:last-child {
+    font-style: italic;
+    margin-top: 15px;
+    color: #000000;
+    /* Mensaje motivacional en color naranja/cobre */
+    font-weight: 500;
+}
+
+/* Media query para hacer el diseño responsivo en pantallas pequeñas */
+@media (max-width: 768px) {
+    .progreso-container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .progreso-heading {
+        font-size: 2rem;
+    }
+
+    .progreso-card {
+        max-width: 100%;
+        /* Las tarjetas ocupan todo el ancho en móvil */
+    }
+}

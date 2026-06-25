@@ -1,0 +1,123 @@
+/* Limpia el estilo de div contenedor de la página para centrar */
+.register-form-div {
+  display: flex;
+  flex-direction: column;
+  /* Centrado horizontal: */
+  justify-content: center;
+  align-items: center;
+  /* Centrado vertical: */
+  min-height: 100vh;
+  width: 100%;
+  /* Asegura que ocupe todo el ancho para poder centrar */
+  background-color: #ffffff;
+}
+
+.register-form {
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 450px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Centra el texto, encabezados y botones */
+}
+
+/* Encabezado */
+.heading-register {
+  font-size: 34px;
+  color: #070bff;
+  /* Azul primario */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Contenedor principal de campos - Eliminamos el fondo oscuro */
+.register {
+  width: 100%;
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+  align-items: flex-start;
+}
+
+/* Campos de entrada */
+.register-field {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.register-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.RegisterForm,
+.RegisterForm input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333 !important;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Mensajes de error */
+.text-required {
+  color: red;
+  font-size: 14px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  display: block;
+  position: relative;
+  margin-left: 0;
+}
+
+/* Botón de Registrarse (.btn-register) -> Estilo azul redondeado de 'nav a' */
+.btn-register {
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  background-color: #070bff;
+  /* Azul principal */
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.btn-register:hover {
+  background-color: #0508a8;
+}
+
+.register-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilo para el enlace de "Iniciar Sesión" */
+.not-count-reg {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.nc-t-reg {
+  color: #070bff;
+  text-decoration: none;
+  font-weight: bold;
+}
