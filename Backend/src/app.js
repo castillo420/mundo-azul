@@ -14,7 +14,7 @@ const app = express();
 //middleware
 app.use(
   cors({
-    origin: "https://mundo-azul-s5ug.vercel.app/",
+    origin: "https://mundo-azul-s5ug.vercel.app",
     credentials: true,
   })
 );
